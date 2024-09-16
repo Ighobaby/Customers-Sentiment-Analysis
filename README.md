@@ -61,6 +61,7 @@ The Random Forest model performed the best, achieving an accuracy of 99.17%. How
 The model is deployed using Flask and Streamlit. Users can input a review text, and the model will predict whether the sentiment is positive, negative, or neutral. The web application provides an easy interface for real-time sentiment predictions.
 
 # Limitations
+    The target variable is highly imbalanced
     The model struggles with interpreting sarcastic or ambiguous statements.
     It has difficulty handling context where sentiment may not be clear from individual words.
 
@@ -70,7 +71,7 @@ The model is deployed using Flask and Streamlit. Users can input a review text, 
     Continuously update the sentiment lexicon to adapt to changing trends in language.
 
 # Conclusion
-  The sentiment analysis system developed successfully processes Amazon product reviews in the Electronics category. The results from the project will help inform product development and improve customer satisfaction.
+  The sentiment analysis system developed successfully processes product reviews. The results from the project will help inform product development and improve customer satisfaction.
 
 # Recommendations
 
